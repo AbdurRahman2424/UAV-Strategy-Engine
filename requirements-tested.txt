@@ -1,0 +1,6 @@
+# Direct dependency versions used for the included results (Python 3.14.4).
+# On older supported Python versions prefer requirements.txt for compatible wheels.
+numpy==2.3.5
+matplotlib==3.10.7
+pytest==9.0.2
+reportlab==5.0.1

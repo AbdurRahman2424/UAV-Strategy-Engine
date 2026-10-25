@@ -1,0 +1,74 @@
+Complete submission tree (local environment, caches and tool-owned directories omitted):
+./
+├── outputs/
+│   ├── figures/
+│   │   ├── coverage_heatmap.png
+│   │   ├── evolution_across_generations.png
+│   │   ├── fitness_convergence.png
+│   │   ├── ga_vs_random_search.png
+│   │   ├── hyperparameter_sensitivity.png
+│   │   └── optimized_flight_paths.png
+│   ├── results/
+│   │   ├── comparison_ga_history_seed_42.csv
+│   │   ├── comparison_ga_history_seed_43.csv
+│   │   ├── comparison_ga_history_seed_44.csv
+│   │   ├── comparison_random_history_seed_42.csv
+│   │   ├── comparison_random_history_seed_43.csv
+│   │   ├── comparison_random_history_seed_44.csv
+│   │   ├── environment.npz
+│   │   ├── evolution_snapshots.json
+│   │   ├── experiment_summary.json
+│   │   ├── ga_coverage.npz
+│   │   ├── ga_history.csv
+│   │   ├── ga_solution.json
+│   │   ├── main_comparison.csv
+│   │   ├── paired_comparison.csv
+│   │   ├── pytest_results.txt
+│   │   ├── random_coverage.npz
+│   │   ├── random_history.csv
+│   │   ├── random_solution.json
+│   │   ├── run_summary.json
+│   │   ├── sensitivity.csv
+│   │   ├── sensitivity_histories.csv
+│   │   ├── simulation_output.txt
+│   │   └── validation.json
+│   └── screenshots/
+│       ├── mission_dashboard.png
+│       ├── report_page-1.png
+│       ├── report_page-2.png
+│       ├── report_page-3.png
+│       └── report_page-4.png
+├── report/
+│   └── Technical_Report.pdf
+├── src/
+│   ├── __init__.py
+│   ├── chromosome.py
+│   ├── constraints.py
+│   ├── crossover.py
+│   ├── drone.py
+│   ├── environment.py
+│   ├── experiments.py
+│   ├── fitness.py
+│   ├── genetic_algorithm.py
+│   ├── io_utils.py
+│   ├── mutation.py
+│   ├── pathfinding.py
+│   ├── random_search.py
+│   ├── selection.py
+│   └── visualization.py
+├── tests/
+│   ├── conftest.py
+│   ├── test_chromosome.py
+│   ├── test_constraints.py
+│   ├── test_fitness.py
+│   └── test_genetic_algorithm.py
+├── .gitignore
+├── Ass2-AI-CCP-10102026-102254pm(1).docx
+├── config.py
+├── generate_report.py
+├── main.py
+├── PROJECT_STRUCTURE.txt
+├── README.md
+├── requirements-tested.txt
+├── requirements.txt
+└── validate_submission.py

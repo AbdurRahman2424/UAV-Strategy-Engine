@@ -1,0 +1,36 @@
+============================= test session starts ==============================
+platform linux -- Python 3.14.4, pytest-9.0.2, pluggy-1.6.0 -- /home/abdurrahman/CloudOffline/onedrive/Documents/Uni shit/University/Semester 5/Ai/Codex assignment 2/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /home/abdurrahman/CloudOffline/onedrive/Documents/Uni shit/University/Semester 5/Ai/Codex assignment 2
+plugins: typeguard-4.4.4
+collecting ... collected 27 items
+
+tests/test_chromosome.py::test_random_valid_initialization_and_bounds PASSED [  3%]
+tests/test_chromosome.py::test_deep_copy PASSED                          [  7%]
+tests/test_chromosome.py::test_crossover_correctness[segment] PASSED     [ 11%]
+tests/test_chromosome.py::test_crossover_correctness[geometric] PASSED   [ 14%]
+tests/test_chromosome.py::test_mutation_correctness PASSED               [ 18%]
+tests/test_chromosome.py::test_structural_corruption_rejected PASSED     [ 22%]
+tests/test_constraints.py::test_astar_avoids_no_fly_and_obstacles PASSED [ 25%]
+tests/test_constraints.py::test_range_and_battery_repair PASSED          [ 29%]
+tests/test_constraints.py::test_invalid_deployment_and_speed_rejected_then_repaired PASSED [ 33%]
+tests/test_constraints.py::test_unreachable_route_is_never_valid PASSED  [ 37%]
+tests/test_constraints.py::test_astar_hazard_detour PASSED               [ 40%]
+tests/test_constraints.py::test_blocked_environment_rejected PASSED      [ 44%]
+tests/test_fitness.py::test_fitness_matches_formula PASSED               [ 48%]
+tests/test_fitness.py::test_sensor_activation_changes_coverage_detection_energy PASSED [ 51%]
+tests/test_fitness.py::test_sensor_power_and_speed_influence_physics PASSED [ 55%]
+tests/test_fitness.py::test_repeated_observations_do_not_create_unique_coverage PASSED [ 59%]
+tests/test_fitness.py::test_priority_weighted_coverage PASSED            [ 62%]
+tests/test_fitness.py::test_stationary_routes_do_not_sense_for_free PASSED [ 66%]
+tests/test_genetic_algorithm.py::test_ga_execution_elitism_and_budget PASSED [ 70%]
+tests/test_genetic_algorithm.py::test_reproducibility_and_random_search PASSED [ 74%]
+tests/test_genetic_algorithm.py::test_partial_generation_equal_budget PASSED [ 77%]
+tests/test_genetic_algorithm.py::test_environment_reproducibility PASSED [ 81%]
+tests/test_genetic_algorithm.py::test_early_stopping PASSED              [ 85%]
+tests/test_genetic_algorithm.py::test_configuration_errors[kwargs0] PASSED [ 88%]
+tests/test_genetic_algorithm.py::test_configuration_errors[kwargs1] PASSED [ 92%]
+tests/test_genetic_algorithm.py::test_configuration_errors[kwargs2] PASSED [ 96%]
+tests/test_genetic_algorithm.py::test_configuration_errors[kwargs3] PASSED [100%]
+
+============================== 27 passed in 0.74s ==============================

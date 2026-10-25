@@ -1,0 +1,124 @@
+{
+  "environment": {
+    "size": 50,
+    "seed": 2026,
+    "target_count": 28
+  },
+  "uav": {
+    "count": 3,
+    "waypoints": 4,
+    "battery_capacity": 65.0,
+    "max_range": 90.0,
+    "min_speed": 0.8,
+    "max_speed": 3.0,
+    "sensor_radius": 2.6,
+    "sensor_consumption": 0.22,
+    "power_levels": [
+      0.5,
+      1.0,
+      1.5
+    ]
+  },
+  "ga_config": {
+    "population": 60,
+    "generations": 100,
+    "crossover": 0.85,
+    "mutation": 0.15,
+    "tournament": 3,
+    "elites": 2,
+    "immigrant_fraction": 0.05,
+    "seed": 42,
+    "patience": 0
+  },
+  "weights": {
+    "coverage": 0.35,
+    "detection": 0.25,
+    "energy": 0.15,
+    "time": 0.1,
+    "risk": 0.15
+  },
+  "python": "3.14.4",
+  "numpy": "2.3.5",
+  "ga": {
+    "fitness": 0.21512704104182764,
+    "coverage": 0.6687759109753436,
+    "detection": 0.5310614432025391,
+    "energy": 117.80746062486598,
+    "mission_time": 54.001829713787465,
+    "risk": 29.44606191824844,
+    "normalized_energy": 0.6041408237172614,
+    "normalized_time": 0.48001626412255527,
+    "normalized_risk": 0.08724759086888427,
+    "expected_detections": 16.7153218915398,
+    "feasible": true,
+    "violations": [],
+    "uav_metrics": [
+      {
+        "uid": 0,
+        "distance": 16.0,
+        "energy": 9.447232694166903,
+        "time": 7.725760486962413,
+        "risk": 3.041962327658987
+      },
+      {
+        "uid": 1,
+        "distance": 90.0,
+        "energy": 53.86938269448435,
+        "time": 54.001829713787465,
+        "risk": 18.911862653825185
+      },
+      {
+        "uid": 2,
+        "distance": 90.0,
+        "energy": 54.490845236214724,
+        "time": 43.75105033848503,
+        "risk": 7.492236936764266
+      }
+    ]
+  },
+  "random": {
+    "fitness": 0.10989533328799392,
+    "coverage": 0.4339951996508837,
+    "detection": 0.3208776899937526,
+    "energy": 87.09041782512776,
+    "mission_time": 52.59578161259392,
+    "risk": 19.075441756815316,
+    "normalized_energy": 0.4466175273083475,
+    "normalized_time": 0.4675180587786126,
+    "normalized_risk": 0.056519827427600935,
+    "expected_detections": 10.212906831529667,
+    "feasible": true,
+    "violations": [],
+    "uav_metrics": [
+      {
+        "uid": 0,
+        "distance": 36.0,
+        "energy": 22.36332464290838,
+        "time": 16.00668336306266,
+        "risk": 4.542383204119046
+      },
+      {
+        "uid": 1,
+        "distance": 32.0,
+        "energy": 19.526667730946336,
+        "time": 13.83375110695691,
+        "risk": 0.049134442235664134
+      },
+      {
+        "uid": 2,
+        "distance": 79.0,
+        "energy": 45.20042545127305,
+        "time": 52.59578161259392,
+        "risk": 14.483924110460606
+      }
+    ]
+  },
+  "ga_evaluations": 5860,
+  "random_evaluations": 5860,
+  "ga_seconds": 43.24913880499662,
+  "random_seconds": 36.56577898799878,
+  "initial_ga_fitness": 0.04270287147855315,
+  "final_generation": 100,
+  "ga_valid_solutions": 5860,
+  "random_valid_solutions": 5860
+}

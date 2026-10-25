@@ -1,0 +1,18 @@
+{
+  "checks": [
+    "Saved environment exactly matches configured seed",
+    "ga: saved chromosome, expanded paths, all constraints and numerical metrics independently verified",
+    "random: saved chromosome, expanded paths, all constraints and numerical metrics independently verified",
+    "Actual fitness improvement, monotone best histories and equal main evaluation budgets verified",
+    "36 sensitivity runs and 6 paired optimizer runs complete with equal budgets",
+    "All six required PNG figures exist and decode correctly",
+    "Four-page PDF and required section/placeholder text verified with Poppler"
+  ],
+  "report_pages": 4,
+  "passed": true,
+  "main_evaluations_per_optimizer": 5860,
+  "ga_fitness": 0.21512704104182764,
+  "random_fitness": 0.10989533328799392,
+  "sensitivity_runs": 36,
+  "paired_optimizer_runs": 6
+}

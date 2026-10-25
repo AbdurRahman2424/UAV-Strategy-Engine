@@ -1,0 +1,15 @@
+Mission: 50x50, 3 UAVs, environment seed 2026, optimizer seed 42
+Generation   0 | evaluations    60 | best 0.042703
+Generation  10 | evaluations   640 | best 0.126706
+Generation  20 | evaluations  1220 | best 0.172345
+Generation  30 | evaluations  1800 | best 0.208966
+Generation  40 | evaluations  2380 | best 0.208966
+Generation  50 | evaluations  2960 | best 0.215127
+Generation  60 | evaluations  3540 | best 0.215127
+Generation  70 | evaluations  4120 | best 0.215127
+Generation  80 | evaluations  4700 | best 0.215127
+Generation  90 | evaluations  5280 | best 0.215127
+Generation 100 | evaluations  5860 | best 0.215127
+GA: fitness=0.215127, weighted coverage=66.88%, detection=53.11%, energy=117.807, time=54.002s, risk=29.446 hazard-s, valid=5860/5860, runtime=43.25s
+Random Search: fitness=0.109895, weighted coverage=43.40%, detection=32.09%, energy=87.090, time=52.596s, risk=19.075 hazard-s, valid=5860/5860, runtime=36.57s
+Saved numerical results and figures to /home/abdurrahman/CloudOffline/onedrive/Documents/Uni shit/University/Semester 5/Ai/Codex assignment 2/outputs
